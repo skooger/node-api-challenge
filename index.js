@@ -1,9 +1,10 @@
 const express = require("express");
 const projectRouter = require('./routers/projectRouter')
 const actionRouter = require('./routers/actionRouter')
-
+const cors = require('cors');
 const server = express();
 
+server.use(cors());
 server.use(express.json());
 server.use('/api/project', projectRouter)
 server.use('/api/action', actionRouter)

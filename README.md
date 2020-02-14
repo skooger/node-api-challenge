@@ -39,14 +39,24 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+	
+	Requests, responses, routes/router and middleware
 
 - [ ] Describe Middleware?
 
+	Middleware performs as a middle man between a database and applications.
+
 - [ ] Describe a Resource?
+
+	A resource is a representation of something in a database.
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+	A 200 or 2XX status code can be returned to display that a request was sucessful.
+
 - [ ] How can we partition our application into sub-applications?
+
+	Through the use of specific routes.
 
 ## Minimum Viable Product
 
